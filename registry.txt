@@ -1,0 +1,5 @@
+undefined
+1 request: req1 | time: 17:53:21 | method: GET | 
+2 request: req2 | time: 17:53:26 | method: GET | 
+3 request: req3 | time: 17:53:30 | method: GET | 
+4 request: store | time: 17:53:36 | method: GET | 
