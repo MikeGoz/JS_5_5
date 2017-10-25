@@ -3,9 +3,9 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var reqNum = 0, //requests counter
-    reqData ='Requests registry : ',
-    timeFormatted;
+var reqNum = 0; //requests counter
+var reqData ='Requests registry : ';
+var timeFormatted;
 
 var registry = function (req, res, next) {
   var time = new Date();
